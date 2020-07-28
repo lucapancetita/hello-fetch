@@ -44,6 +44,7 @@ if (users[0] !== null) {
       } else {
         document.getElementById('table').hidden = true;
        document.getElementById('nores').innerHTML = 'No hay resultados';
+// HOLA PUTO DE MIERDAAAAAAAAAAAAAAAAAAAAAAAAAAA JAJAJA 
      }
    });
 }
