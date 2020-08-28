@@ -41,7 +41,7 @@ function fetchUser() {
   let id = document.getElementById('userID').value;
 
   if (isNaN(id)) return;
-  fetch(`https://lucasuriano-hello-database.herokuapp.com/api/users/${id}`)
+  fetch(`https://lucasuriano-hello-database.herokuapp.com/api/user/${id}`)
     .then(res => res.json())
     .then(user => {
       let users = [user];
